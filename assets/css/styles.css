@@ -1,0 +1,299 @@
+/* Polices auto-hébergées (téléchargées depuis Google Fonts, licence OFL) */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/outfit-300-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/outfit-300-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/outfit-400-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/outfit-400-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/outfit-500-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/outfit-500-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/outfit-600-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/outfit-600-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Prata';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/prata-400-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Immobilière Ouakaa — feuille de style unique
+   Charte issue des maquettes validées : Prata (titres) + Outfit (texte)
+   charbon #1a1a1a · ivoire #faf8f5 · rouge #c90000 · beige #e9e6df */
+
+:root {
+  --charbon: #1a1a1a;
+  --ivoire: #faf8f5;
+  --beige: #e9e6df;
+  --rouge: #c90000;
+  --rouge-fonce: #8f1d1d;
+  --bordure: #e6e1d8;
+  --texte: #1a1a1a;
+  --texte-2: #56514a;
+  --texte-3: #6e6a61;
+  --vert: #1a7f37;
+  --vert-clair: #e8f3ec;
+  --whatsapp: #187f40;
+  --blanc: #ffffff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Outfit', 'Segoe UI', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--texte);
+  background: var(--ivoire);
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, .titre-serif { font-family: 'Prata', Georgia, serif; font-weight: 400; line-height: 1.18; }
+h1 { font-size: clamp(1.7rem, 4.2vw, 2.6rem); }
+h2 { font-size: clamp(1.35rem, 3vw, 1.75rem); }
+h3 { font-size: 1.15rem; }
+p { color: var(--texte-2); }
+a { color: var(--rouge); text-decoration: none; }
+a:hover, a:focus-visible { color: var(--rouge-fonce); text-decoration: underline; }
+img { max-width: 100%; height: auto; display: block; }
+.conteneur { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+.section { padding: 56px 0; }
+.surtitre { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.2em; text-transform: uppercase; color: var(--texte-3); }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- Boutons ---------- */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 14px 22px; font: 600 0.95rem 'Outfit', sans-serif; border: none; cursor: pointer; transition: background 0.15s, color 0.15s; text-decoration: none !important; }
+.btn svg { flex: 0 0 auto; }
+.btn-rouge { background: var(--rouge); color: #fff !important; }
+.btn-rouge:hover { background: var(--rouge-fonce); }
+.btn-contour { border: 1.5px solid var(--charbon); color: var(--charbon) !important; background: transparent; }
+.btn-contour:hover { background: var(--charbon); color: #fff !important; }
+.btn-contour-clair { border: 1.5px solid rgba(250, 248, 245, 0.75); color: var(--ivoire) !important; background: transparent; }
+.btn-contour-clair:hover { background: rgba(250, 248, 245, 0.14); }
+.btn-whatsapp { background: var(--whatsapp); color: #fff !important; }
+.btn-whatsapp:hover { background: #136635; }
+.btn-noir { background: var(--charbon); color: #fff !important; }
+.btn-noir:hover { background: #000; }
+
+/* ---------- En-tête ---------- */
+.entete { position: sticky; top: 0; z-index: 60; background: var(--ivoire); border-bottom: 1px solid var(--bordure); }
+.entete-inner { display: flex; align-items: center; justify-content: space-between; gap: 18px; height: 68px; }
+.entete-logo img { height: 32px; width: auto; }
+.nav-principale { display: flex; gap: 26px; align-items: center; }
+.nav-principale a { font: 500 0.92rem 'Outfit', sans-serif; color: var(--charbon); text-decoration: none !important; padding: 6px 0; border-bottom: 2px solid transparent; }
+.nav-principale a:hover { color: var(--rouge); }
+.nav-principale a[aria-current] { color: var(--rouge); border-bottom-color: var(--rouge); }
+.entete-actions { display: flex; align-items: center; gap: 10px; }
+.entete-tel { display: inline-flex; align-items: center; gap: 8px; font: 600 0.9rem 'Outfit', sans-serif; color: var(--charbon) !important; text-decoration: none !important; }
+.entete-tel:hover { color: var(--rouge) !important; }
+.pill-whatsapp { display: inline-flex; align-items: center; gap: 8px; background: var(--whatsapp); color: #fff !important; font: 600 0.85rem 'Outfit', sans-serif; padding: 9px 15px; border-radius: 999px; text-decoration: none !important; }
+.pill-whatsapp:hover { background: #136635; }
+.burger { display: none; background: none; border: none; cursor: pointer; padding: 10px; }
+.burger span { display: block; width: 23px; height: 2px; background: var(--charbon); margin: 5px 0; transition: transform 0.2s; }
+
+@media (max-width: 900px) {
+  .nav-principale { display: none; position: absolute; top: 68px; left: 0; right: 0; background: var(--ivoire); border-bottom: 1px solid var(--bordure); flex-direction: column; gap: 0; padding: 8px 0 14px; }
+  .nav-principale.ouverte { display: flex; }
+  .nav-principale a { padding: 13px 24px; width: 100%; font-size: 1rem; }
+  .entete-tel { display: none; }
+  .burger { display: block; }
+}
+
+/* ---------- Hero ---------- */
+.hero { position: relative; min-height: 470px; display: flex; align-items: center; color: var(--ivoire); isolation: isolate; }
+.hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+.hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(16, 14, 12, 0.78) 0%, rgba(16, 14, 12, 0.42) 55%, rgba(16, 14, 12, 0.12) 100%); z-index: -1; }
+.hero-contenu { max-width: 620px; padding: 64px 0; display: flex; flex-direction: column; align-items: flex-start; gap: 16px; }
+.hero .surtitre { color: #e8c9c9; }
+.hero h1 { color: var(--ivoire); }
+.hero p { color: #ede8e1; font-weight: 300; font-size: 1.05rem; }
+.badge-dispo { display: inline-flex; align-items: center; gap: 9px; background: rgba(255, 255, 255, 0.95); color: var(--charbon); font: 600 0.92rem 'Outfit', sans-serif; padding: 9px 17px; border-radius: 999px; }
+.badge-dispo::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--vert); }
+.hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 6px; }
+@media (max-width: 640px) { .hero { min-height: 520px; } .hero-actions .btn { width: 100%; } }
+
+/* ---------- Bandeau chiffres ---------- */
+.bandeau-chiffres { background: var(--charbon); color: var(--ivoire); }
+.bandeau-chiffres-inner { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 26px 0; }
+.chiffre-valeur { font-family: 'Prata', Georgia, serif; font-size: 1.7rem; }
+.chiffre-libelle { font-size: 0.8rem; color: #b8b2a8; margin-top: 2px; }
+.bandeau-chiffres .mention { grid-column: 1 / -1; font-size: 0.92rem; color: var(--ivoire); font-weight: 500; border-top: 1px solid rgba(250, 248, 245, 0.15); padding-top: 14px; }
+@media (max-width: 640px) { .bandeau-chiffres-inner { grid-template-columns: repeat(2, 1fr); } }
+
+/* ---------- Cartes appartements ---------- */
+.grille-cartes { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
+.carte-appart { background: var(--blanc); border: 1px solid var(--bordure); display: flex; flex-direction: column; transition: box-shadow 0.15s, transform 0.15s; position: relative; }
+.carte-appart:hover { box-shadow: 0 12px 32px rgba(26, 22, 18, 0.12); transform: translateY(-2px); }
+.carte-photo { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: var(--beige); }
+.carte-photo img { width: 100%; height: 100%; object-fit: cover; }
+.badge-statut { position: absolute; top: 10px; left: 10px; font: 600 0.72rem 'Outfit', sans-serif; padding: 4px 11px; border-radius: 999px; letter-spacing: 0.02em; }
+.badge-statut.disponible { background: var(--vert); color: #fff; }
+.badge-statut.vendu { background: rgba(26, 26, 26, 0.78); color: #d8d2c6; }
+.carte-corps { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.carte-titre { font-family: 'Prata', Georgia, serif; font-size: 1.08rem; color: var(--charbon); }
+.carte-details { font-size: 0.85rem; color: var(--texte-2); }
+.carte-pied { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 10px; font-size: 0.85rem; }
+.carte-pied .prix { color: var(--texte-3); }
+.carte-pied .lien { color: var(--rouge); font-weight: 600; }
+.carte-appart.est-vendu { opacity: 0.66; }
+.carte-appart.est-vendu:hover { opacity: 1; }
+.carte-lien-global { position: absolute; inset: 0; z-index: 1; }
+
+/* ---------- Filtres ---------- */
+.filtres { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 18px 0 24px; }
+.filtre-chip { font: 500 0.88rem 'Outfit', sans-serif; padding: 9px 18px; border-radius: 999px; border: 1px solid var(--bordure); background: var(--blanc); color: var(--texte-2); cursor: pointer; }
+.filtre-chip[aria-pressed="true"] { background: var(--charbon); color: #fff; border-color: var(--charbon); }
+.filtre-dispo { display: inline-flex; align-items: center; gap: 9px; font: 500 0.88rem 'Outfit', sans-serif; color: var(--charbon); cursor: pointer; margin-left: 6px; }
+.filtre-dispo input { width: 18px; height: 18px; accent-color: var(--vert); cursor: pointer; }
+.compteur-resultats { font-size: 0.85rem; color: var(--texte-3); margin-left: auto; }
+
+/* ---------- Fiche appartement ---------- */
+.fiche-grille { display: grid; grid-template-columns: minmax(0, 1fr) 350px; gap: 30px; align-items: start; }
+@media (max-width: 900px) { .fiche-grille { grid-template-columns: 1fr; } }
+.fiche-galerie-principale { aspect-ratio: 16 / 9; overflow: hidden; background: var(--beige); }
+.fiche-galerie-principale img { width: 100%; height: 100%; object-fit: cover; }
+.fiche-vignettes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 8px; }
+.fiche-vignettes a { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: var(--beige); display: block; }
+.fiche-vignettes img { width: 100%; height: 100%; object-fit: cover; }
+.fiche-vignettes .etiquette { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(26, 26, 26, 0.45); color: #fff; font: 600 0.8rem 'Outfit', sans-serif; }
+.panneau-info { background: var(--blanc); border: 1px solid var(--bordure); padding: 22px; position: sticky; top: 86px; }
+.panneau-info .surtitre { font-size: 0.68rem; }
+.panneau-titre { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+.panneau-titre .titre-serif { font-size: 1.45rem; }
+.table-cles { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--bordure); border: 1px solid var(--bordure); margin-top: 14px; font-size: 0.85rem; }
+.table-cles dt { background: var(--ivoire); padding: 9px 12px; color: var(--texte-3); }
+.table-cles dd { background: var(--blanc); padding: 9px 12px; font-weight: 600; color: var(--charbon); }
+.panneau-info .note-prix { font-size: 0.88rem; color: var(--texte-2); margin-top: 12px; }
+.panneau-info .btn { width: 100%; margin-top: 9px; }
+.lien-plan { display: block; text-align: center; font: 600 0.85rem 'Outfit', sans-serif; margin-top: 12px; }
+.reassurance { background: var(--ivoire); border: 1px solid var(--bordure); padding: 12px 14px; margin-top: 14px; font-size: 0.82rem; color: var(--texte-2); display: flex; flex-direction: column; gap: 5px; }
+
+/* ---------- Sections communes ---------- */
+.entete-section { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 22px; }
+.fil-ariane { font-size: 0.82rem; color: var(--texte-3); padding: 14px 0 0; }
+.fil-ariane a { color: var(--texte-3); }
+.fil-ariane [aria-current] { color: var(--charbon); font-weight: 500; }
+.liste-commodites { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; list-style: none; }
+.liste-commodites li { background: var(--blanc); border: 1px solid var(--bordure); padding: 12px 15px; font-size: 0.9rem; display: flex; align-items: center; gap: 10px; }
+.liste-commodites li::before { content: "✓"; color: var(--vert); font-weight: 700; }
+.galerie-grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+.galerie-grille a { aspect-ratio: 4 / 3; overflow: hidden; background: var(--beige); display: block; }
+.galerie-grille img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s; }
+.galerie-grille a:hover img { transform: scale(1.04); }
+
+/* ---------- Vidéo & carte (chargées au clic) ---------- */
+.media-clic { position: relative; aspect-ratio: 16 / 9; background: var(--charbon); overflow: hidden; border: none; cursor: pointer; width: 100%; padding: 0; }
+.media-clic img { width: 100%; height: 100%; object-fit: cover; opacity: 0.65; }
+.media-clic .media-libelle { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; color: #fff; font: 600 1rem 'Outfit', sans-serif; }
+.media-clic .picto-lecture { width: 64px; height: 64px; border-radius: 50%; background: var(--rouge); display: flex; align-items: center; justify-content: center; }
+.media-clic:hover .picto-lecture { background: var(--rouge-fonce); }
+.media-cadre iframe { width: 100%; aspect-ratio: 16 / 9; border: 0; display: block; }
+
+/* ---------- Contact ---------- */
+.cartes-contact { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.carte-contact { display: flex; align-items: center; gap: 14px; background: var(--blanc); border: 1px solid var(--bordure); padding: 17px 18px; border-radius: 8px; color: var(--charbon) !important; text-decoration: none !important; }
+.carte-contact:hover { box-shadow: 0 8px 24px rgba(26, 22, 18, 0.1); }
+.carte-contact.principale { background: var(--whatsapp); border-color: var(--whatsapp); color: #fff !important; }
+.carte-contact .titre { font-weight: 600; font-size: 0.98rem; }
+.carte-contact .detail { font-size: 0.82rem; opacity: 0.82; }
+.carte-contact.principale .detail { opacity: 1; }
+.formulaire { background: var(--blanc); border: 1px solid var(--bordure); padding: 26px; max-width: 560px; }
+.champ { margin-bottom: 14px; }
+.champ label { display: block; font: 600 0.78rem 'Outfit', sans-serif; letter-spacing: 0.08em; text-transform: uppercase; color: var(--texte-2); margin-bottom: 5px; }
+.champ input, .champ textarea { width: 100%; border: 1px solid var(--bordure); border-radius: 6px; padding: 11px 13px; font: 400 0.95rem 'Outfit', sans-serif; background: var(--ivoire); color: var(--charbon); }
+.champ input:focus, .champ textarea:focus { outline: 2px solid var(--rouge); outline-offset: 1px; }
+.champ-hp { position: absolute; left: -9999px; }
+
+/* ---------- Boutons flottants + barre mobile ---------- */
+.flottants { position: fixed; right: 18px; bottom: 18px; display: flex; flex-direction: column; gap: 10px; z-index: 50; }
+.flottant { width: 52px; height: 52px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28); text-decoration: none !important; }
+.flottant.whatsapp { background: var(--whatsapp); }
+.flottant.appel { background: var(--charbon); }
+.barre-mobile { display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 55; border-top: 1px solid var(--bordure); }
+.barre-mobile a { flex: 1; display: flex; align-items: center; justify-content: center; gap: 9px; padding: 15px 0; font: 600 0.95rem 'Outfit', sans-serif; color: #fff !important; text-decoration: none !important; }
+.barre-mobile .appel { background: var(--charbon); }
+.barre-mobile .whatsapp { background: var(--whatsapp); }
+@media (max-width: 700px) {
+  .barre-mobile { display: flex; }
+  .flottants { display: none; }
+  body { padding-bottom: 54px; }
+}
+
+/* ---------- Pied de page ---------- */
+.pied { background: var(--charbon); color: #b8b2a8; margin-top: 64px; }
+.pied-inner { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 32px; padding: 44px 0 30px; font-size: 0.88rem; }
+.pied h2 { color: var(--ivoire); font-size: 1rem; font-family: 'Outfit', sans-serif; font-weight: 600; margin-bottom: 12px; }
+.pied a { color: #d8d2c6; }
+.pied a:hover { color: #fff; }
+.pied ul { list-style: none; display: flex; flex-direction: column; gap: 7px; }
+.pied-logo { height: 30px; width: auto; margin-bottom: 14px; filter: brightness(0) invert(1); opacity: 0.9; }
+.pied-bas { border-top: 1px solid rgba(250, 248, 245, 0.12); padding: 16px 0; font-size: 0.78rem; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+@media (max-width: 800px) { .pied-inner { grid-template-columns: 1fr; gap: 24px; } }
+
+/* ---------- 404 ---------- */
+.page-404 { min-height: 60vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 16px; padding: 60px 20px; }
+.page-404 .code { font-family: 'Prata', Georgia, serif; font-size: 5rem; color: var(--rouge); line-height: 1; }
+
+/* ---------- Divers ---------- */
+.bloc-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; align-items: center; }
+@media (max-width: 800px) { .bloc-2col { grid-template-columns: 1fr; } }
+.encadre-cta { background: var(--charbon); color: var(--ivoire); padding: 36px; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+.encadre-cta .titre-serif { color: var(--ivoire); font-size: 1.4rem; }
+.liste-tirets { list-style: none; display: flex; flex-direction: column; gap: 8px; color: var(--texte-2); }
+.liste-tirets li { padding-left: 20px; position: relative; }
+.liste-tirets li::before { content: "—"; position: absolute; left: 0; color: var(--rouge); }
+.note-page { font-size: 0.82rem; color: var(--texte-3); }
