@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://khalymahoo.github.io/immobiliere-ouakaa/sitemap.xml
+Sitemap: https://immobiliere-ouakaa.com/sitemap.xml
