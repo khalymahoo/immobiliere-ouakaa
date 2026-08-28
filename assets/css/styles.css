@@ -142,6 +142,8 @@ img { max-width: 100%; height: auto; display: block; }
 .entete-tel:hover { color: var(--rouge) !important; }
 .pill-whatsapp { display: inline-flex; align-items: center; gap: 8px; background: var(--whatsapp); color: #fff !important; font: 600 0.85rem 'Outfit', sans-serif; padding: 9px 15px; border-radius: 999px; text-decoration: none !important; }
 .pill-whatsapp:hover { background: #136635; }
+.lien-langue { font: 600 0.82rem 'Outfit', sans-serif; color: var(--texte-2) !important; border: 1px solid var(--bordure); border-radius: 999px; padding: 7px 13px; text-decoration: none !important; }
+.lien-langue:hover { border-color: var(--charbon); color: var(--charbon) !important; }
 .burger { display: none; background: none; border: none; cursor: pointer; padding: 10px; }
 .burger span { display: block; width: 23px; height: 2px; background: var(--charbon); margin: 5px 0; transition: transform 0.2s; }
 
