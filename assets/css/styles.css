@@ -299,3 +299,9 @@ img { max-width: 100%; height: auto; display: block; }
 .liste-tirets li { padding-left: 20px; position: relative; }
 .liste-tirets li::before { content: "—"; position: absolute; left: 0; color: var(--rouge); }
 .note-page { font-size: 0.82rem; color: var(--texte-3); }
+
+/* ---------- Vidéo auto-hébergée (aucun service tiers) ---------- */
+.cadre-video { background: var(--charbon); border-radius: 8px; overflow: hidden; margin: 0 auto; }
+.cadre-video video { display: block; width: 100%; height: auto; }
+.cadre-video.video-verticale { max-width: 400px; }
+@media (max-width: 480px) { .cadre-video.video-verticale { max-width: 100%; } }
